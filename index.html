@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Aprendizaje colaborativo</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Aprendizaje Colaborativo y tics</h1>
+  </header>
+
+  <!-- SECCIONES -->
+  <section>
+    <div class="contenido">
+      <div class="texto">
+        <h2>Introducción</h2>
+        <p>La educomunicación se debate entre la educación presencial y virtual, la escuela y los medios, y entre la interacción e interactividad...</p>
+        <p>Va más allá de la tecnología: implica subjetivación humana y aprendizaje cultural a través de códigos comunicativos.</p>
+      </div>
+      <div class="imagen">
+        <img src="imajen 1.jpg" alt="Introducción" />
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="contenido">
+      <div class="texto">
+        <h2>Definiciones Clave</h2>
+        <p>Este enfoque culturalista redefine conceptos como:</p>
+        <ul class="ticks">
+          <li><strong>Comunicación educativa:</strong> Integración de aprendizaje y comunicación.</li>
+          <li><strong>Educomunicación:</strong> Participación activa en la cultura mediática.</li>
+          <li><strong>Educación mediática:</strong> Aprendizaje de códigos culturales, no solo herramientas.</li>
+        </ul>
+        <p>Tipos de códigos:</p>
+        <ul class="ticks">
+          <li><strong>Oral-ritual:</strong> Basado en tradiciones.</li>
+          <li><strong>Icónico-narrativo:</strong> Imágenes y relatos.</li>
+          <li><strong>Alfabético-argumentativo:</strong> Escritura lógica y estructurada.</li>
+        </ul>
+      </div>
+      <div class="imagen">
+        <img src="imajen 3.png" alt="Definiciones" />
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="contenido">
+      <div class="texto">
+        <h2>Interacción e Interactividad</h2>
+        <p>La interacción es bidireccional; la interactividad permite diálogo, reflexión y transformación del aprendizaje.</p>
+        <ul class="ticks">
+          <li><strong>Interacción:</strong> Comunicación efectiva.</li>
+          <li><strong>Interactividad:</strong> Participación activa y crítica.</li>
+        </ul>
+      </div>
+      <div class="imagen">
+        <img src="imajen 2.jpg" alt="Interacción" />
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="contenido">
+      <div class="texto">
+        <h2>Comunicación Educativa</h2>
+        <p>Incluye:</p>
+        <ul class="ticks">
+          <li><strong>Medios educativos:</strong> Tecnología para enseñar.</li>
+          <li><strong>Medios escolares:</strong> Recursos del entorno institucional.</li>
+        </ul>
+      </div>
+      <div class="imagen">
+        <img src="imajen 4.jpg" alt="Comunicación educativa" />
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="contenido">
+      <div class="texto">
+        <h2>Aprendizaje Colaborativo</h2>
+        <p>Fomenta el trabajo conjunto entre docentes y estudiantes:</p>
+        <ol>
+          <li><strong>Entre docentes:</strong> Coordinación interdisciplinaria.</li>
+          <li><strong>Entre estudiantes:</strong> Resolución en equipo.</li>
+        </ol>
+      </div>
+      <div class="imagen">
+        <img src="imajen 5.jpg" alt="Colaboración" />
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="contenido">
+      <div class="texto">
+        <h2>Características del Aprendizaje Colaborativo</h2>
+        <ul class="ticks">
+          <li><strong>Orgullo de grupo:</strong> Compromiso compartido.</li>
+          <li><strong>Diversidad:</strong> Enriquecimiento por diferentes perspectivas.</li>
+          <li><strong>Intersubjetividad:</strong> Diálogo constante.</li>
+          <li><strong>Liderazgo:</strong> Cada quien aporta con responsabilidad.</li>
+          <li><strong>Resolución de conflictos:</strong> Forma parte del proceso educativo.</li>
+        </ul>
+      </div>
+      <div class="imagen">
+        <img src="imajen 6.jpg" alt="Características" />
+      </div>
+    </div>
+  </section>
+
+  <footer id="pageFooter">
+    <p>© 2025 Bernardo Carlos Bautista Velásquez</p>
+  </footer>
+
+  <script>
+    // Mostrar footer al final
+    window.addEventListener('scroll', () => {
+      const footer = document.getElementById('pageFooter');
+      const scrollTop = window.scrollY || document.documentElement.scrollTop;
+      const windowHeight = window.innerHeight;
+      const fullHeight = document.documentElement.scrollHeight;
+
+      if (scrollTop + windowHeight >= fullHeight - 100) {
+        footer.style.display = 'block';
+      } else {
+        footer.style.display = 'none';
+      }
+    });
+  </script>
+</body>
+</html>
